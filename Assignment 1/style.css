@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+button {
+    width: 180px;
+    height: 60px;
+    border: 1px soldi black;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
+#stopwatch {
+    font-size: 80px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    position: absolute;
+    border: 1px soldi black;
+    border-radius: 30px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+.buttons {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-51.6%, -45%);
+}
+.buttons li {
+    display: inline;
+    padding-left: 10px;
+}
